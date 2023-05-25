@@ -109,6 +109,7 @@ github
 - Hero section
 - About me, Contact info, & Skill set
 - Services & Features
-- Recent Work & Hire
+- Recent Work
+- Hire
 - CTA
 - Footer
