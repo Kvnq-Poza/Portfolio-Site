@@ -15,6 +15,7 @@
     <!-- ************** CSS Libs ************** -->
     <!-- CSS -->
     <link rel="stylesheet" href="Assets/CSS/general.css" />
+    <link rel="stylesheet" href="Assets/CSS/nav.css" />
     <link rel="stylesheet" href="Assets/CSS/hero.css" />
     <link rel="stylesheet" href="Assets/CSS/services.css" />
     <link rel="stylesheet" href="Assets/CSS/portfolio.css" />
@@ -53,14 +54,13 @@
         <img
           src="Assets/Design-by-Poza-Logo.png"
           alt="Brand logo"
-          width="241px"
-          height="196px"
+          class="logo"
         />
       </a>
 
       <!-- Nav bar -->
       <nav class="main-nav">
-        <ul>
+        <ul class="main-nav-list">
           <li><a href="#" class="main-nav-link">Nav 1</a></li>
           <li><a href="#" class="main-nav-link">Nav 2</a></li>
           <li><a href="#" class="main-nav-link">Nav 3</a></li>
@@ -76,19 +76,22 @@
     <section class="section-hero">
       <div class="hero">
         <div class="hero-text">
-          <p>Hey there, I'm</p>
-          <h1 class="heading-primary">James Alaribe</h1>
+          <p class="subheading">Hey there, I'm</p>
+          <h1 class="heading-primary name">James Alaribe</h1>
           <p>Designer and web developer.</p>
+          <a href="#" class="btn btn--full margin-right-sm">Look around</a>
+          <div class="social-links">
+            <a href="https://github.com/Kvnq-Poza">GitHub</a>
+            <a href="https://www.behance.net/KvnqPoza">Behance</a>
+            <a href="https://www.linkedin.com/in/kvnqpoza02344/">LinkedIn</a>
+            <a href="https://www.instagram.com/kvnq_poza/">Instagram</a>
+            <a href="https://twitter.com/KvnqPoza">Twitter</a>
+          </div>
         </div>
 
-        <img src="Assets/Poza-img.png" alt="Alaribe James picture" />
-
-        <a href="#" class="hero-social-icon">Look around</a>
-        <a href="https://github.com/Kvnq-Poza">GitHub</a>
-        <a href="https://www.behance.net/KvnqPoza">Behance</a>
-        <a href="https://www.linkedin.com/in/kvnqpoza02344/">LinkedIn</a>
-        <a href="https://www.instagram.com/kvnq_poza/">Instagram</a>
-        <a href="https://twitter.com/KvnqPoza">Twitter</a>
+        <div class="hero-img-box">
+          <img src="Assets/Poza-img.png" alt="Alaribe James picture" />
+        </div>
       </div>
     </section>
     <!-- ************** Hero Section End ************** -->
@@ -108,7 +111,7 @@
 
         <div class="grid grid--2-cols">
           <div class="about-content">
-            <h5 class="about-title">Hi there, I'm James Alaribe</h5>
+            <h5 class="subheading">Hi there, I'm James Alaribe</h5>
             <p class="about-write-up">
               A graphic designer and software developer, offering a unique blend
               of creative and technical skills. With expertise in Photoshop,
