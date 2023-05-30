@@ -5,7 +5,8 @@
 .section-hero {
   background-color: #a5d1cd;
   padding: 4.8rem 2.4rem 9.6rem 9.6rem;
-  height: 100vh;
+  height: 85vh;
+  margin-bottom: 9.6rem;
 }
 
 .hero {
@@ -33,7 +34,7 @@
   font-size: 1.6rem;
   color: #0c3834;
   font-weight: 500;
-  margin-bottom: 3.8rem;
+  margin-bottom: 9.6rem;
 }
 
 .social-contacts {
@@ -43,18 +44,24 @@
   margin-top: 9.6rem;
 }
 
-.social-contact-link {
+.social-contact-icon,
+.social-contact-icon:link,
+.social-contact-icon:visited {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #555;
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-
-.social-contact-icon {
   text-align: center;
   padding-right: 0.8rem;
   color: #0c3834;
   font-size: 2.4rem;
+  padding: 0.8rem;
+  border: solid 1px #0c3834;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.social-contact-icon:hover,
+.social-contact-icon:active {
+  color: #fff;
+  border: solid 1px #fff;
 }
