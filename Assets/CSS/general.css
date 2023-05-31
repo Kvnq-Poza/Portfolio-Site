@@ -41,7 +41,7 @@ Large: 1.8
 - Greys:
 
 #888
-#767676 
+#fafafa
 #6f6f6f 
 #555
 #333
@@ -189,13 +189,13 @@ body {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: #1f8c81;
+  background-color: #16625a;
   color: #fff;
 }
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #16625a;
+  background-color: #1f8c81;
 }
 
 .btn--outline:link,
@@ -226,6 +226,10 @@ body {
   outline: none;
   box-shadow: 0 0 0 0.5rem rgba(1, 104, 138, 0.5);
 } */
+
+.align-items-center {
+  align-items: center;
+}
 
 /* HELPER/SETTING CLASSES */
 
