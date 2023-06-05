@@ -18,6 +18,7 @@
 
 .header-content .header-shape {
   position: absolute !important;
+  transform-style: preserve-3d;
 }
 .header-content .header-shape.shape-one {
   top: 9% !important;

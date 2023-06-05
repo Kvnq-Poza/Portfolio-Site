@@ -71,6 +71,7 @@ Medium: 11px
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  transition: all 0.3s ease;
 }
 
 /* ****************************************** */
