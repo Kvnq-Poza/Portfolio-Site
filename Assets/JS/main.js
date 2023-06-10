@@ -1,17 +1,33 @@
-(function($){
-
-
+(function ($) {
   "use strict";
 
-    // Parallaxmouse js
-    
-    function parallaxMouse() {
-      if ($('#parallax').length) {
-          var scene = document.getElementById('parallax');
-          var parallax = new Parallax(scene);
-      };
-  };
+  // Parallaxmouse js
+
+  function parallaxMouse() {
+    if ($("#parallax").length) {
+      var scene = document.getElementById("parallax");
+      var parallax = new Parallax(scene);
+    }
+  }
   parallaxMouse();
 
-}(jQuery));
+  //===== Progress Bar
 
+  if ($(".progress-line").length) {
+    $(".progress-line").appear(
+      function () {
+        var el = $(this);
+        var percent = el.data("width");
+        $(el).css("width", percent + "%");
+      },
+      { accY: 0 }
+    );
+  }
+
+  //===== Counter Up
+
+  $(".counter").counterUp({
+    delay: 10,
+    time: 1600,
+  });
+})(jQuery);
