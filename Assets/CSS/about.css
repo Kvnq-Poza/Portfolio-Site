@@ -50,46 +50,56 @@
   font-size: 1.4rem;
 }
 
-.skill-item .skill-header {
+.about-skills .skill-item .skill-header {
   position: relative;
 }
-.skill-item .skill-header .skill-percentage {
+
+.about-skills .skill-itel .skill-header .skill-title {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.about-skills .skill-item .skill-header .skill-percentage {
   position: absolute;
   top: 0;
   right: 0;
   font-size: 1.6rem;
   color: #6f6f6f;
   font-weight: 400;
-  /* display: -webkit-flex;
+  display: -webkit-flex;
   display: -moz-flex;
-  display: -o-flex; */
+  display: -o-flex;
   display: flex;
 }
 
-.skill-item .skill-header .skill-percentage .counter-box {
+.about-skills .skill-item .skill-header .skill-percentage .counter-box {
   font-size: 1.6rem;
   color: #6f6f6f;
   /* align-items: center; */
 }
 
-.skill-item .skill-bar {
+.about-skills .skill-item .skill-bar {
   margin-top: 3.2rem;
 }
 
-.skill-item .skil-bar .bar-inner {
+.about-skills .about-skills .skill-item .skil-bar .bar-inner {
   width: 100%;
   height: 0.5rem;
   border-radius: 5px;
-  background-color: #fafafa;
+  background-color: #32333c;
   position: relative;
 }
 
-.skill-item .skill-bar .bar-inner .progress-line {
+.about-skills .skill-item .skill-bar .bar-inner .progress-line {
   position: absolute;
   top: 0;
   left: 0;
   height: 0.5rem;
   background-color: #4ca39a;
+  -webkit-transition: all 2s ease-out 0s;
+  -moz-transition: all 2s ease-out 0s;
+  -ms-transition: all 2s ease-out 0s;
+  -o-transition: all 2s ease-out 0s;
   transition: all 2s ease-out 0s;
   width: 0;
 }

@@ -255,3 +255,7 @@ strong {
   padding-bottom: 2.4rem;
   color: #6f6f6f;
 }
+
+.pt-24 {
+  padding-top: 2.4rem;
+}
