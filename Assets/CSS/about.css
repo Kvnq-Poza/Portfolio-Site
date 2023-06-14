@@ -38,23 +38,137 @@
   font-size: 1.6rem;
 }
 
-.skill {
-  margin-bottom: 1.2rem;
-}
-
 .skill-title {
+  letter-spacing: 1px;
+  margin-top: 2.4rem;
+  margin-bottom: 1.2rem;
+  color: #1f8c81;
+  font-weight: 500;
   font-size: 1.6rem;
 }
 
-.counter {
-  font-size: 1.4rem;
+.progress-bar {
+  background: #eee;
+  width: 600px;
+  height: 10px;
+  border-radius: 5px;
 }
 
-.about-skills .skill-item .skill-header {
+.progress-bar div {
+  height: 10px;
+  border-radius: 5px;
+  width: 0%;
+  /* background: #4ca39a; */
+}
+
+.progress-bar div span {
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: 50%;
+  background: #fff;
+  float: right;
+  margin-top: -1.2rem;
+  margin-right: -1.2rem;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.html {
+  background: #1f8c81;
+  animation: html 1s linear forwards;
+}
+.css {
+  background: #f28627;
+  animation: css 1s linear forwards;
+}
+.javascript {
+  background: #bf3030;
+  animation: javascript 1s linear forwards;
+}
+.photoshop {
+  background: #a3bf3b;
+  animation: photoshop 1s linear forwards;
+}
+.illustrator {
+  background: #f28627;
+  animation: illustrator 1s linear forwards;
+}
+.corel-draw {
+  background: #1f8c81;
+  animation: corel-draw 1s linear forwards;
+}
+.powerpoint {
+  background: #bf3030;
+  animation: powerpoint 1s linear forwards;
+}
+
+.html span {
+  border: 1px solid #1f8c81;
+}
+.css span {
+  border: 1px solid #f28627;
+}
+.javascript span {
+  border: 1px solid #bf3030;
+}
+.photoshop span {
+  border: 1px solid #a3bf3b;
+}
+.illustrator span {
+  border: 1px solid #f28627;
+}
+.corel-draw span {
+  border: 1px solid #1f8c81;
+}
+.powerpoint span {
+  border: 1px solid #bf3030;
+}
+
+@keyframes html {
+  100% {
+    width: 80%;
+  }
+}
+@keyframes css {
+  100% {
+    width: 76%;
+  }
+}
+@keyframes javascript {
+  100% {
+    width: 50%;
+  }
+}
+@keyframes photoshop {
+  100% {
+    width: 60%;
+  }
+}
+@keyframes illustrator {
+  100% {
+    width: 80%;
+  }
+}
+@keyframes corel-draw {
+  100% {
+    width: 85%;
+  }
+}
+@keyframes powerpoint {
+  100% {
+    width: 70%;
+  }
+}
+
+/* .about-skills .skill-item .skill-header {
   position: relative;
 }
 
-.about-skills .skill-itel .skill-header .skill-title {
+.about-skills .skill-item .skill-header .skill-title {
   font-size: 1.6rem;
   font-weight: 400;
 }
@@ -64,18 +178,15 @@
   top: 0;
   right: 0;
   font-size: 1.6rem;
+  font-weight: 400;
   color: #6f6f6f;
   font-weight: 400;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -o-flex;
   display: flex;
 }
 
-.about-skills .skill-item .skill-header .skill-percentage .counter-box {
+.about-skills .skill-item .skill-header .skill-percentage .count-box {
   font-size: 1.6rem;
   color: #6f6f6f;
-  /* align-items: center; */
 }
 
 .about-skills .skill-item .skill-bar {
@@ -86,7 +197,7 @@
   width: 100%;
   height: 0.5rem;
   border-radius: 5px;
-  background-color: #32333c;
+  background-color: #6f6f6f;
   position: relative;
 }
 
@@ -96,10 +207,6 @@
   left: 0;
   height: 0.5rem;
   background-color: #4ca39a;
-  -webkit-transition: all 2s ease-out 0s;
-  -moz-transition: all 2s ease-out 0s;
-  -ms-transition: all 2s ease-out 0s;
-  -o-transition: all 2s ease-out 0s;
   transition: all 2s ease-out 0s;
   width: 0;
-}
+} */
