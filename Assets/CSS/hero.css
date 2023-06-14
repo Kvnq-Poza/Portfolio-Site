@@ -5,8 +5,6 @@
 .section-hero {
   background-color: #fafafa;
   padding: 4.8rem 0 9.6rem 0;
-  /* height: 85vh;
-  margin-bottom: 9.6rem; */
 }
 
 /* PARALLAX SHAPES */
@@ -31,7 +29,7 @@
 }
 
 .hero-contents .hero-shape.shape-three {
-  top: 0 !important;
+  top: 50px !important;
   left: 40% !important;
 }
 
@@ -110,11 +108,10 @@
 .heading-primary.name {
   margin-bottom: 1.2rem;
   font-weight: 700;
-  color: #333;
 }
 
 .title {
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   color: #16625a;
   font-weight: 500;
   margin-bottom: 9.6rem;

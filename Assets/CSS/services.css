@@ -1,0 +1,12 @@
+/* ****************************************** */
+/* SERVICES SECTION */
+/* ****************************************** */
+
+.section-services {
+  padding: 9.6rem 0;
+  background-color: #fafafa;
+}
+
+.service-box {
+  border: 2px solid #1f8c81;
+}

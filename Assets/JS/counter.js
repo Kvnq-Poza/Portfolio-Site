@@ -30,6 +30,7 @@ const progressBars = document.querySelectorAll(".progress-bar");
 progressBars.forEach((progressBar) => {
   const value = progressBar.dataset.value || 0;
   const htmlBar = progressBar.querySelector(".bar");
+  let animationSpeed = 1; // Default animation speed
 
   const animateProgressBar = () => {
     htmlBar.style.width = value + "%";
@@ -38,6 +39,8 @@ progressBars.forEach((progressBar) => {
   const callback = (entries, observer) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
+        const animationDuration = 2600 / animationSpeed; // Calculate animation duration based on speed (e.g., 1000ms for speed 1)
+        htmlBar.style.transition = `width ${animationDuration}ms ease-in-out`;
         animateProgressBar();
         observer.unobserve(progressBar);
       }
@@ -47,4 +50,9 @@ progressBars.forEach((progressBar) => {
   const IO = new IntersectionObserver(callback, { threshold: 1 });
 
   IO.observe(progressBar);
+
+  // Function to set animation speed
+  const setAnimationSpeed = (speed) => {
+    animationSpeed = speed;
+  };
 });

@@ -44,11 +44,23 @@ PowerPoint: 70%
 
 ### Services
 
-Branding: A unique brand identity that catches the eye of your target audience.
-Graphic Design: Eye catching designs in different formats and media.
-Web design and development: Lets create a custom website optimized to meet your requirements.
-SEO: Keep your website at the top of related search results to attract more visits, this includes keyword research, on-page and off-page optimization, technical SEO, and local SEO services.
-Website hosting: Get fast and secured website hosting and domain registeration with loads of extensions to boost your website functionality and showcase your business identity.
+Web Design:
+Our expert team specializes in crafting visually appealing and user-friendly websites that cater to your unique business requirements. We ensure that your website not only looks great but also provides a seamless browsing experience for your visitors.
+
+Graphic Design & Branding:
+With our creative prowess, we develop distinctive brand identities that leave a lasting impression on your target audience. Our graphic design services encompass logo design, visual elements, and brand guidelines, all aimed at reflecting your brand's personality and values.
+
+Search Engine Optimization:
+Boost your online visibility and increase organic traffic to your website with our comprehensive search engine optimization (SEO) strategies. Our team utilizes the latest techniques to optimize your website's content, structure, and coding, ensuring higher search engine rankings and improved online presence.
+
+Web Hosting:
+We offer reliable and secure web hosting solutions that ensure your website is accessible to users at all times. Our hosting services provide the necessary infrastructure, speed, and support to keep your website up and running smoothly, allowing you to focus on your core business activities.
+
+Web Development:
+Our skilled web developers possess the technical expertise to bring your website ideas to life. From front-end development using modern frameworks to robust back-end solutions, we create dynamic and functional websites tailored to your specific requirements.
+
+Consultancy and Support:
+We provide professional consultancy services to guide you through the intricacies of web design, branding, SEO, and overall online presence. Our experienced team offers ongoing support and assistance, ensuring that your digital strategy is effective and aligned with your business goals.
 
 Contact for more info!
 
