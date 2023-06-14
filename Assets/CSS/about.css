@@ -2,10 +2,12 @@
 /* ABOUT SECTION */
 /* ****************************************** */
 
+/* Section spacing */
 .section-about {
   padding: 9.6rem 0;
 }
 
+/* Icon */
 .contact-icon {
   font-size: 1.6rem;
   color: #1f8c81;
@@ -13,6 +15,7 @@
   padding-right: 1.2rem;
 }
 
+/* Contact info */
 .list {
   list-style: none;
 }
@@ -38,14 +41,49 @@
   font-size: 1.6rem;
 }
 
+/* Skill section */
+
 .skill-title {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #1f8c81;
   letter-spacing: 1px;
   margin-top: 2.4rem;
   margin-bottom: 1.2rem;
-  color: #1f8c81;
-  font-weight: 500;
-  font-size: 1.6rem;
 }
+
+.skill-header {
+  position: relative;
+}
+
+.skill-header .skill-title {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.skill-header .skill-percentage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #6f6f6f;
+  font-weight: 400;
+  display: flex;
+}
+
+.skill-header .skill-percentage .count-box {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
+/* Counter */
+
+.counter:not(.is-visible) {
+  visibility: hidden;
+}
+
+/* Progress bar */
 
 .progress-bar {
   background: #eee;
@@ -58,23 +96,7 @@
   height: 10px;
   border-radius: 5px;
   width: 0%;
-  /* background: #4ca39a; */
-}
-
-.progress-bar div span {
-  height: 3.2rem;
-  width: 3.2rem;
-  border-radius: 50%;
-  background: #fff;
-  float: right;
-  margin-top: -1.2rem;
-  margin-right: -1.2rem;
-  color: #333;
-  font-size: 1.2rem;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  transition: all 2s ease-out 0s;
 }
 
 .html {
@@ -162,29 +184,4 @@
   100% {
     width: 70%;
   }
-}
-
-.skill-header {
-  position: relative;
-}
-
-.skill-header .skill-title {
-  font-size: 1.6rem;
-  font-weight: 400;
-}
-
-.skill-header .skill-percentage {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 1.6rem;
-  font-weight: 400;
-  color: #6f6f6f;
-  font-weight: 400;
-  display: flex;
-}
-
-.skill-header .skill-percentage .count-box {
-  font-size: 1.6rem;
-  color: #6f6f6f;
 }
