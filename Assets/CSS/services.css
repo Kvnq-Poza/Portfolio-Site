@@ -4,9 +4,33 @@
 
 .section-services {
   padding: 9.6rem 0;
-  background-color: #fafafa;
+  background-color: #d2e8e6;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2rem;
+  column-gap: 3.2rem;
+  padding: 1.6rem;
 }
 
 .service-box {
-  border: 2px solid #1f8c81;
+  border: 1px solid #333;
+  border-radius: 0.4rem;
+  box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.096);
+  background-color: #fafafa;
+  padding: 1.6rem;
+  transition: all 0.4s;
+}
+
+.service-box:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, 0.026);
+}
+
+.service-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #f28627;
 }
