@@ -16,6 +16,9 @@
 }
 
 .service-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
   border: 1px solid #333;
   border-radius: 0.4rem;
   box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.096);
@@ -33,4 +36,5 @@
   height: 3.2rem;
   width: 3.2rem;
   color: #f28627;
+  align-self: center;
 }
