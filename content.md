@@ -130,3 +130,6 @@ github
 <!-- StorySet Attribute
 <a href="https://storyset.com/work">Work illustrations by Storyset</a>
  -->
+
+For work section:
+Get inspiration from unfold & Samar.
