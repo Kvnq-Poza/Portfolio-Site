@@ -120,7 +120,8 @@ github
 - Logo & Nav
 - Hero section
 - About me, Contact info, & Skill set
-- Services & Features
+- Services
+- Features
 - Recent Work
 - Hire
 - CTA

@@ -24,12 +24,25 @@
   box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0);
   background-color: #fafafa;
   padding: 1.6rem;
-  transition: all 0.4s;
+  transition: all 0.7s;
 }
 
 .service-box:hover {
   transform: translateY(-1.2rem);
-  box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, 0.172);
+  border: none;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    29deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+.service-box:hover p,
+.service-box:hover h3,
+.service-box:hover .service-icon {
+  color: #fff;
 }
 
 .service-icon {
@@ -37,10 +50,4 @@
   width: 4.8rem;
   color: #bf3030;
   align-self: center;
-}
-
-.service-head {
-  font-size: 1.6rem;
-  font-weight: 500;
-  color: #bf3030;
 }

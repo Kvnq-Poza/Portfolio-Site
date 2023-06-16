@@ -142,8 +142,9 @@
 
 .social-contact-icon:hover,
 .social-contact-icon:active {
-  color: #4ca39a;
-  border: solid 1px #4ca39a;
+  color: #fff;
+  border: solid 1px #fff;
+  background: #4ca39a;
 }
 
 .hero-img-box img {
