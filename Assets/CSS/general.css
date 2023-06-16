@@ -247,6 +247,35 @@ body {
   align-items: center;
 }
 
+.text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, 0.06);
+  border-radius: 0.4rem;
+  background-color: #fafafa;
+  padding: 1.6rem;
+  transition: all 0.7s;
+}
+
+.text-box:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, 0.172);
+  border: none;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    29deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+.text-box:hover p,
+.text-box:hover h3,
+.text-box:hover .service-icon {
+  color: #fff;
+}
+
 /* HELPER/SETTING CLASSES */
 
 .margin-right-sm {

@@ -7,3 +7,13 @@
   padding: 9.6rem 0;
   background: #fafafa;
 }
+
+.features {
+  display: grid;
+  grid-template-rows: 1fr;
+  row-gap: 2.4rem;
+}
+
+.feature.text-box:hover {
+  transform: translateY(-0.2rem);
+}
