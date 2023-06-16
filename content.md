@@ -126,3 +126,7 @@ github
 - Hire
 - CTA
 - Footer
+
+<!-- StorySet Attribute
+<a href="https://storyset.com/work">Work illustrations by Storyset</a>
+ -->
