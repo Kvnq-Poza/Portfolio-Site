@@ -1,12 +1,13 @@
 /* ****************************************** */
-/* WORK SECTION */
+/* PORTFOLIO SECTION */
 /* ****************************************** */
 
 /* Section spacing */
-.section-work {
+.section-portfolio {
   padding: 9.6rem 0;
 }
 
+/* 
 .single-work {
   position: relative;
 }
@@ -98,4 +99,4 @@
 .single-work:hover .work-overlay .work-content .work-title {
   transform: translateY(0);
   opacity: 1;
-}
+} */
