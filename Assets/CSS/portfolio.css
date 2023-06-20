@@ -7,6 +7,37 @@
   padding: 9.6rem 0;
 }
 
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.single-work {
+  position: relative;
+  border: 2px solid #1f8c81;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.single-work .work-img img {
+  width: 100%;
+}
+
+.work-overlay {
+  position: absolute;
+  /* visibility: hidden; */
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+.work-title {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
 /* 
 .single-work {
   position: relative;
