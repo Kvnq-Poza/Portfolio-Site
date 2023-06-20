@@ -19,7 +19,7 @@
   position: relative;
   border: 2px solid #1f8c81;
   border-radius: 10px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .single-work .work-img img {
