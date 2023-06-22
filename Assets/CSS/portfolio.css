@@ -28,7 +28,7 @@
 
 .work-overlay {
   position: absolute;
-  /* visibility: hidden; */
+  visibility: hidden;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -30%);
