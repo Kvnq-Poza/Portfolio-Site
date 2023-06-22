@@ -9,7 +9,7 @@
 
 .row {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
   margin-top: 4.8rem;
@@ -40,7 +40,7 @@
 
 .work-overlay {
   position: absolute;
-  visibility: hidden;
+  /* visibility: hidden; */
   top: 30%;
   left: 50%;
   transform: translate(-50%, -30%);
@@ -73,8 +73,8 @@
 }
 
 .work-icon {
-  height: 4.8rem;
-  width: 4.8rem;
+  height: 3.2rem;
+  width: 3.2rem;
   border: 2px solid #fff;
   border-radius: 50%;
   color: #fff;
