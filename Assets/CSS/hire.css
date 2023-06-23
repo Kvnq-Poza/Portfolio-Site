@@ -1,0 +1,22 @@
+/* ****************************************** */
+/* HIRE SECTION */
+/* ****************************************** */
+
+/* Section spacing */
+.section-hire {
+  padding: 9.6rem 0;
+}
+
+.hire-heading {
+  background-color: #a5d1cd;
+  padding: 6.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hire.heading-secondary {
+  text-transform: none;
+  margin-bottom: 3.2rem;
+}
