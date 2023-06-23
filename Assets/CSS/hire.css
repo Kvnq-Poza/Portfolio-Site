@@ -8,7 +8,9 @@
 }
 
 .hire-heading {
-  background-color: #a5d1cd;
+  background: url(../img/hire-bg.webp) #a5d1cd;
+  background-size: cover;
+  background-blend-mode: multiply;
   padding: 6.4rem;
   display: flex;
   flex-direction: column;
@@ -17,6 +19,11 @@
 }
 
 .hire.heading-secondary {
+  color: #fff;
   text-transform: none;
   margin-bottom: 3.2rem;
+}
+
+.hire.write-up {
+  color: #fff;
 }
