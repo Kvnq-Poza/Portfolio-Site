@@ -209,9 +209,39 @@ body {
   color: #fff;
 }
 
-.btn--full:hover,
-.btn--full:active {
+.btn--full:hover {
   background-color: #1f8c81;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn--full:active {
+  background-color: #16625a;
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  position: relative;
+}
+
+.btn::after {
+  content: "";
+  background-color: #1f8c81;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 9px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
 }
 
 .btn--outline:link,
